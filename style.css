@@ -1,0 +1,5 @@
+div h1, div h2, div h3 {
+    font-size: 50px; 
+    font-weight: bold;
+    margin: 0.5em 0; 
+}
