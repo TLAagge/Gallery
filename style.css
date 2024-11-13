@@ -25,6 +25,37 @@ nav ul li a{
     text-decoration: none;
     font-size:1.2em;
 }
+nav ul li a:hover{
+    color: #ff6347;
+}
+@media screen and(max-width: 768px){
+    nav ul li{
+        display: block;
+        margin: 10px 0;
+    }
+
+    img{
+        width:100%
+        height: auto;
+    }
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-conten: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+.gallery img{
+    width: 300px;
+    height: auto;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out;
+}
+.gallery img:hover{
+    transform: scale(1.05);
+}
 
 
 
