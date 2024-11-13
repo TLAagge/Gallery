@@ -3,3 +3,7 @@ h1, h2, h3 {
     font-weight: bold;
     margin: 0.5em 0; 
 }
+body{
+    background-color:dodger blue;
+    color:black;
+}
