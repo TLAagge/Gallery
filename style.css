@@ -78,7 +78,7 @@ nav ul li a:hover {
 
 /* On hover, zoom the image slightly */
 .gallery img:hover {
-    transform: scale(1.05);
+    transform: scale(3);
 }
 
 .gallery p {
