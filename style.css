@@ -69,15 +69,16 @@ nav ul li a:hover {
 }
 
 .gallery img {
-    width: 300px;
-    height: auto;
+    width: 300px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
 
+/* On hover, zoom the image slightly */
 .gallery img:hover {
-    transform: scale(1.05); /* Zoom on hover */
+    transform: scale(1.05);
 }
 
 .gallery p {
