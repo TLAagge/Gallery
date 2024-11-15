@@ -65,6 +65,7 @@ nav ul li a:hover {
     justify-content: space-around;
     gap: 20px;
     padding: 20px;
+    margin-bottom: 100px; 
 }
 
 .gallery img {
