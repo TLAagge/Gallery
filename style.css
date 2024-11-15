@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1, h2, h3 {
     font-size: 2em; 
     font-weight: bold;
@@ -6,13 +11,14 @@ h1, h2, h3 {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     background-color: SlateBlue;
     color: black;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    padding-bottom: 0;
 }
 main{
     flex: 1;
@@ -101,4 +107,6 @@ footer {
     position: static; 
     width: 100%;
     bottom: 0; 
+    margin-top: auto;
 }
+
