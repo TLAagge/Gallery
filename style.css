@@ -19,11 +19,15 @@ nav ul{
 nav ul li{
     display: infline;
     margin: 0 20px;
+    float: left;
 }
 nav ul li a{
+    display: block;
     color: whie;
+    text-align: center;
     text-decoration: none;
     font-size:1.2em;
+    padding:14px 16px;
 }
 nav ul li a:hover{
     color: #ff6347;
