@@ -60,6 +60,11 @@ nav ul li a:hover{
 .gallery img:hover{
     transform: scale(1.05);
 }
+.gallery img p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
 
 
 
