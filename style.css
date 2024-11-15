@@ -1,72 +1,98 @@
+/* Headings */
 h1, h2, h3 {
     font-size: 2em; 
     font-weight: bold;
     margin: 0.5em 0; 
 }
-body{
-    background-color:SlateBlue;
-    color:black;
-}
-nav{
-    background-color: #333;
-    padding: 10px;
-    text-aling: center;
-}
-nav ul{
-    list-style-type: none;
+
+/* Body Styling */
+body {
+    background-color: SlateBlue;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
 }
-nav ul li{
-    display: infline;
-    margin: 0 20px;
-    float: left;
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
 }
-nav ul li a{
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    margin: 0 20px;
+}
+
+nav ul li a {
     display: block;
-    color: whie;
+    color: white;
     text-align: center;
     text-decoration: none;
-    font-size:1.2em;
-    padding:14px 16px;
+    font-size: 1.2em;
+    padding: 14px 16px;
 }
-nav ul li a:hover{
-    color: #ff6347;
+
+nav ul li a:hover {
+    color: #ff6347; /* Hover effect */
 }
-@media screen and(max-width: 768px){
-    nav ul li{
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul li {
         display: block;
         margin: 10px 0;
     }
 
-    img{
-        width:100%
+    img {
+        width: 100%;
         height: auto;
     }
 }
-.gallery{
+
+/* Gallery Styling */
+.gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-conten: space-around;
+    justify-content: space-around;
     gap: 20px;
     padding: 20px;
 }
-.gallery img{
+
+.gallery img {
     width: 300px;
     height: auto;
-    border-radius:10px;
-    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
-.gallery img:hover{
-    transform: scale(1.05);
+
+.gallery img:hover {
+    transform: scale(1.05); /* Zoom on hover */
 }
-.gallery img p{
+
+.gallery p {
     color: white;
     text-align: center;
     margin-top: 10px;
 }
 
-
-
-
-    
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
