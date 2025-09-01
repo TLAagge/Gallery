@@ -37,6 +37,4 @@ lightbox.addEventListener('click', (e) => {
     }
 });
 
-function change(element){
-    element.classList.toggle("fullsize");
-};
+
