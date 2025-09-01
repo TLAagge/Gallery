@@ -136,15 +136,3 @@ footer {
     cursor: pointer;
 }
 
-.fullsize{
-    border: 6px solid blue;;
-    z-index: 999;
-    cursor: zoom-out;
-    display: block;
-    width: 600px;
-    max-width: 600px;
-    height: 450px;
-    position: fixed;
-    left: 100px;
-    top: 30px;
-}
