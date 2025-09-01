@@ -74,7 +74,7 @@ nav ul li a:hover {
 /* Gallery Styling */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300x, 1fr));
     gap: 15px;
     padding: 20px;
 }
