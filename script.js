@@ -6,10 +6,10 @@ const imageInfo= document.getElementById('image-info');
 const photoLocation=document.getElementById('photo-location');
 
 const imageDetails = {
-    "DSC07242.jpg": "Taken in Mongolia."
-    "DSC07321.jpg": "Taken in Mongolia."
-    "DSC07331.jpg": "Taken in Mongolia."
-    "DSC07425.jpg": "Taken in Mongolia."
+    "DSC07242.jpg": "Taken in Mongolia.",
+    "DSC07321.jpg": "Taken in Mongolia.",
+    "DSC07331.jpg": "Taken in Mongolia.",
+    "DSC07425.jpg": "Taken in Mongolia.",
     "DSC07374.jpg": "Taken in Mongolia."
 };
 
@@ -31,8 +31,8 @@ closeLightbox.addEventListener('click', () => {
     lightbox.style.display = 'none';
 });
 
-lightbox.addEventListener('click', (e) => {
-    if (e.target === lightbox) {
+document.addEventListener('keydown', (e) => {
+    if (e.key === "Escape") {
         lightbox.style.display = 'none';
     }
 });
