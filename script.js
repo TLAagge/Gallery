@@ -6,11 +6,11 @@ const imageInfo= document.getElementById('image-info');
 const photoLocation=document.getElementById('photo-location');
 
 const imageDetails = {
-    "DSC07242.jpg": "Taken in Mongolia.",
-    "DSC07321.jpg": "Taken in Mongolia.",
-    "DSC07331.jpg": "Taken in Mongolia.",
-    "DSC07425.jpg": "Taken in Mongolia.",
-    "DSC07374.jpg": "Taken in Mongolia."
+    "images/animals/DSC07242.jpg": "Taken in Mongolia.",
+    "images/animals/DSC07321.jpg": "Taken in Mongolia.",
+    "images/animals/DSC07331.jpg": "Taken in Mongolia.",
+    "images/animals/DSC07425.jpg": "Taken in Mongolia.",
+    "images/animals/DSC07374.jpg": "Taken in Mongolia."
 };
 
 // Open lightbox on image click

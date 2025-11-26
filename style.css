@@ -74,11 +74,20 @@ nav ul li a:hover {
 /* Gallery Styling */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300x, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     padding: 20px;
 }
 
+.gallery-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-home img {
+    max-width: 600px;
+}
 
 .gallery img {
     width: 100%; 
@@ -120,12 +129,20 @@ footer {
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    flex-direction: column;
 }
 .lightbox img{
     max-width: 90%;
-    max-height: 90%;
+    max-height: 80%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+    object-fit: contain;
+}
+.image-info{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
 }
 .lightbox .close{
     position: absolute;
