@@ -43,8 +43,6 @@ function initializeLightbox() {
 
             // Set the corresponding image info (location)
             if (photoLocation) {
-                console.log('Looking for:', imageSrc);
-                console.log('Available paths:', Object.keys(imageDetails));
                 const locationText = imageDetails[imageSrc] || "Location information not available";
                 photoLocation.textContent = locationText;
             }
