@@ -29,6 +29,36 @@
       "filename": "DSC07309.jpg",
       "description": "This is a Ruddy Shelduck mid flight, scientific name Tadorna ferruginea. Taken in Mongolia. A fun fact about Ruddy Shelducks is that in Tibetan Buddhism they are considered sacred and a symbol of fidelity because pairs often mate for life and are very protective of each others.",
       "showOnIndex": false
+    },
+    {
+      "filename": "DSC07149.JPG",
+      "description": "This is a yak, scientific name Bos grunniens. Taken in Mongolia. A fun fact about yaks is that they dont moo like regular cows, instead they produce a distinctive grunting sound.",
+      "showOnIndex": false
+    },
+    {
+      "filename": "DSC07155.JPG",
+      "description": "This is a yak with its calf, scientific name Bos grunniens. Taken in Mongolia. A fun fact about yaks is that they dont moo like regular cows, instead they produce a distinctive grunting sound.",
+      "showOnIndex": false
+    },
+    {
+      "filename": "DSC07297.JPG",
+      "description": "This is a grasshopper, scientific name Caelifera. Taken in Mongolia. A fun fact about grasshoppers is that they have ears located on their abdomen, which helps them detect sounds and vibrations.",
+      "showOnIndex": false
+    },
+    {
+      "filename": "DSC07333.JPG",
+      "description": "These are Demoiselle cranes, scientific name Grus virgo. Taken in Mongolia. A fun fact about Demoiselle cranes is that they undertake one of the longest migratory journeys of any bird species, flying over the Himalayas (up to 8000 meters) to reach their wintering grounds in India.",
+      "showOnIndex": false
+    },
+    {
+      "filename": "DSC07423.JPG",
+      "description": "This is a bearded vulture, scientific name Gypaetus barbatus. Taken in Mongolia. A fun fact about bearded vultures is that they get these orange colors from bathing in iron-rich mud.",
+      "showOnIndex": false
+    },
+    {
+      "filename": "DSC07440.JPG",
+      "description": "This is a black kite, scientific name Milvus migrans. Taken in Mongolia. A fun fact about black kites is that in Australia there are firehawks that have learned to spread wildfires by picking up burning sticks and dropping them in unburned areas to flush out prey.",
+      "showOnIndex": false
     }
   ],
   "nature": [
@@ -41,6 +71,16 @@
       "filename": "DSC07216.jpg",
       "description": "This is a wild strawberry, scientific name Fragaria vesca. Taken in Mongolia. A fun fact about wild strawberries is that they are not only delicious but also packed with vitamin C, antioxidants, and dietary fiber, making them a healthy treat.",
       "showOnIndex": true
+    },
+    {
+      "filename": "DSC07219.JPG",
+      "description": "This is a cow parsley also known as Queen Anne's lace, scientific name Anthriscus sylvestris. Taken in Mongolia. A fun fact about cow parsley is that it is a member of the Apiaceae family, which also includes carrots, celery, and parsley.",
+      "showOnIndex": false
+    },
+    {
+      "filename": "DSC07403.JPG",
+      "description": "A snapshot of mongolian nomadic life with traditional gers (yurts) set against the backdrop of rolling hills and open skies along with livestock. Taken in Mongolia.",
+      "showOnIndex": false
     }
   ],
   "vehicles": [
@@ -72,6 +112,16 @@
     {
       "filename": "DSC07852.jpg",
       "description": "This is an F-16 Fighting Falcon operated by the Royal Danish Air Force, a single-engine supersonic multirole fighter aircraft originally developed by General Dynamics for the United States Air Force. Taken in Blekinge, Sweden during Flygvapnets flygdag på F17.",
+      "showOnIndex": false
+    },
+    {
+      "filename": "_DSC7525.JPG",
+      "description": "This is an AgustaWestland AW109 designated Hkp-15 in the Swedish military, a lightweight, twin-engine, eight-seat multi-purpose helicopter. Taken during Swedish army's 500th anniversary in Stockholm, Sweden.",
+      "showOnIndex": false
+    },
+    {
+      "filename": "_DSC7527.JPG",
+      "description": "This is an Sikorsky UH-60 Black Hawk designated Hkp-16 in the Swedish military, a four-bladed, twin-engine, medium-lift utility helicopter. Taken during Swedish army's 500th anniversary in Stockholm, Sweden.",
       "showOnIndex": false
     }
   ]
